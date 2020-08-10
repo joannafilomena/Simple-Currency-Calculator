@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator walut</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Kalkulator walut</legend>
+            <label>Kwota:
+                <input name="number" type="number" class="js-money" autofocus>
+            </label>
+            <br>
+            <label>Mam:
+                <select class="js-select1">
+                    <option class="js-pln">PLN</option>
+                    <option class="js-usd">USD</option>
+                    <option class="js-eur">EUR</option>
+                </select>
+            </label>
+            <br>
+            <label>Chcę otrzymać:
+                <select class="js-select2">
+                    <option class="js-pln">PLN</option>
+                    <option class="js-usd">USD</option>
+                    <option class="js-eur">EUR</option>
+                </select>
+            </label>
+        </fieldset>
+        <button>Sprawdź kurs</button>
+        <p>Otrzymasz <span class="js-sum"></span>(<span class="js-val"></span>).</p>
+    </form>
+</body>
+</html>

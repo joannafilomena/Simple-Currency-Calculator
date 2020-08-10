@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+
+html {
+    box-sizing: border-box;
+    background-color: rgb(235, 203, 191);
+    font-family: 'Quicksand', sans-serif;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+form {
+    padding: 10%;
+}
+
+legend {
+    font-weight: 600;
+    font-size: x-large;
+}
+
+fieldset {
+    border: 1px solid white;
+    margin-bottom: 2%;
+    max-width: 280px;
+}
+
+input {
+    background-color: rgba(253, 253, 253, 0.726);
+    border: none;
+}
+
+input:focus {
+    background-color: rgba(253, 253, 253, 0.918);
+    outline: none;
+}
+
+select {
+    background-color: rgba(253, 253, 253, 0.726);
+    border: none;
+}
+
+select:focus {
+    outline: none;
+    background-color: rgba(253, 253, 253, 0.918);
+}
+
+button {
+    background-color: rgba(253, 253, 253, 0.726);
+    border: none;
+    padding: 2%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    background-color: white;
+    padding: 1%;
+}
